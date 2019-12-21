@@ -3,8 +3,6 @@ package com.cbt.tests;
 import com.cbt.utilities.BrowserFactory;
 import org.openqa.selenium.WebDriver;
 
-import java.sql.SQLOutput;
-
 import static com.cbt.utilities.StringUtility.verifyEquals;
 
 public class NavigationTests {
@@ -20,7 +18,7 @@ public class NavigationTests {
         String url2 = "https://etsy.com";
         System.out.println("Your browser "+ browser);
 
-        //1.openbrowser
+        //1. open browser
         WebDriver myDriver = BrowserFactory.getDriver(browser);
 
         //2. go to website https://google.com
