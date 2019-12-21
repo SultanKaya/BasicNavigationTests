@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class TitleVerification3 {
+public class  TitleVerification3 {
     public static void main(String[] args) {
         WebDriverManager.chromedriver() .setup();
         ChromeDriver driver= new ChromeDriver();
